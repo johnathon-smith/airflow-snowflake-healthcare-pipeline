@@ -32,7 +32,7 @@ All AWS resources were intentionally **torn down after completion** to avoid ong
 
 > **Screenshot:**
 
-![Architecture Diagram](architecture/architecture-diagram.png)
+![Architecture Diagram](screenshots/architecture/architecture-diagram.png)
 
 ---
 
