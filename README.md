@@ -32,9 +32,7 @@ All AWS resources were intentionally **torn down after completion** to avoid ong
 
 > **Screenshot:**
 
-```
 ![Architecture Diagram](architecture/architecture-diagram.png)
-```
 
 ---
 
@@ -58,9 +56,7 @@ All AWS resources were intentionally **torn down after completion** to avoid ong
 
 **Screenshot:**
 
-```
 ![Snowflake IAM Role](screenshots/aws/snowflake-iam-role.png)
-```
 
 ---
 
@@ -79,10 +75,8 @@ Two S3 buckets were created:
 
 **Screenshots:**
 
-```
 ![Airflow S3 Bucket](screenshots/aws/s3-airflow-bucket.png)
 ![Data S3 Bucket](screenshots/aws/s3-data-bucket.png)
-```
 
 ---
 
@@ -99,11 +93,9 @@ In Snowflake:
 
 **Screenshots:**
 
-```
 ![Snowflake Schemas](screenshots/snowflake/snowflake-schemas.png)
 ![Storage Integration](screenshots/snowflake/snowflake-storage-integration.png)
 ![External Stage](screenshots/snowflake/snowflake-external-stage.png)
-```
 
 ---
 
@@ -119,9 +111,7 @@ Five raw tables were created:
 
 **Screenshot:**
 
-```
 ![Bronze Tables](screenshots/snowflake/snowflake-bronze-tables.png)
-```
 
 ---
 
@@ -133,9 +123,7 @@ Five raw tables were created:
 
 **Screenshot:**
 
-```
 ![Silver Tables](screenshots/snowflake/snowflake-silver-tables.png)
-```
 
 ---
 
@@ -147,9 +135,7 @@ Five raw tables were created:
 
 **Screenshot:**
 
-```
 ![Gold Tables](screenshots/snowflake/snowflake-gold-tables.png)
-```
 
 ---
 
@@ -163,10 +149,8 @@ Five raw tables were created:
 
 **Screenshots:**
 
-```
 ![MWAA Environment](screenshots/aws/airflow-env-details.png)
 ![MWAA IAM Role](screenshots/aws/airflow-iam-role.png)
-```
 
 ---
 
@@ -176,11 +160,9 @@ Five raw tables were created:
 * Tested connectivity with a simple DAG
 * Verified execution via Snowflake query history
 
-**Screenshots:**
+**Screenshot:**
 
-```
 ![Query History](screenshots/snowflake/snowflake-query-history.png)
-```
 
 ---
 
@@ -196,10 +178,8 @@ The final DAG performs the following steps:
 
 **Screenshots:**
 
-```
 ![DAG Graph View](screenshots/airflow/airflow-dag-graph.png)
 ![DAG Run Success Log](screenshots/airflow/airflow-dag-success.png)
-```
 
 ---
 
@@ -210,15 +190,12 @@ The final DAG performs the following steps:
 
 **Screenshot:**
 
-```
 ![Example Gold Data](screenshots/snowflake/snowflake-gold-data.png)
-```
 
 ---
 
 ## Repository Structure
 
-```
 .
 ├── README.md  
 ├── data/  
@@ -238,14 +215,12 @@ The final DAG performs the following steps:
 ├── dags/  
 │   ├── airflow_healthcare_pipeline.py  
 │   └── test_snowflake_connection.py  
-├── architecture/  
-│   └── airflow_snowflake_pipeline.png  
 ├── screenshots/  
+│   ├── architecture/  
 │   ├── airflow/  
 │   ├── aws/  
 │   └── snowflake/  
 └── requirements.txt  
-```
 
 ---
 
