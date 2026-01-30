@@ -196,6 +196,7 @@ The final DAG performs the following steps:
 
 ## Repository Structure
 
+```
 .
 ├── README.md  
 ├── data/  
@@ -221,6 +222,7 @@ The final DAG performs the following steps:
 │   ├── aws/  
 │   └── snowflake/  
 └── requirements.txt  
+```
 
 ---
 
