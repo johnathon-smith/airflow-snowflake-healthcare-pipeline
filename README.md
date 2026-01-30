@@ -247,6 +247,6 @@ The final DAG performs the following steps:
 
 ## Author
 
-**Johnathon Smith**
-Data Analyst transitioning to Data Engineer
-Focused on AWS, Snowflake, and modern data platforms
+**Johnathon Smith**  
+Data Analyst transitioning to Data Engineer  
+Focused on AWS, Snowflake, and modern data platforms  
